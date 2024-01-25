@@ -2,8 +2,11 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "daily pants",
+      "whoUse": "Male",
+      "price": 30,
+      "size": ["M", "S", "L"],
+      "color": ["#fff", "#000"]
     }
   ],
   "comments": [
@@ -12,8 +15,5 @@
       "body": "some comment",
       "postId": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
