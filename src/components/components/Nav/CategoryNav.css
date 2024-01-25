@@ -1,0 +1,39 @@
+.category_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_container {
+  width: 100%;
+}
+.list-of-category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.list-of-category li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-of-category a {
+  text-decoration: none;
+  color: black;
+}
+.nav_right li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.icon {
+  width: 25px;
+  height: 30px;
+}
