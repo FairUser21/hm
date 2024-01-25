@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from "../../contexts/AuthContextProvider";
+import { useAuth } from "../../../contexts/AuthContextProvider";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -10,14 +10,14 @@ const Register = () => {
   return (
     <div>
       <input
-        type="text"
-        placeholder="email"
+        type='text'
+        placeholder='email'
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
       <input
-        type="text"
-        placeholder="password"
+        type='text'
+        placeholder='password'
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
