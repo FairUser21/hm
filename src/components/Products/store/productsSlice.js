@@ -10,7 +10,7 @@ const initialState = {
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async () => {
-    const response = await axios(API);
+    const response = await axios(`${API}${window.location.search}`);
 
     return response.data;
   }
