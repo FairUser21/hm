@@ -4,13 +4,22 @@ import { API } from "../../../helpers/consts";
 
 const initialState = {
   products: [],
+  oneProduct: {},
 };
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async () => {
     const response = await axios(API);
-    console.log(response.data);
+
+    return response.data;
+  }
+);
+export const getOneProduct = createAsyncThunk(
+  "products/getOneProduct",
+  async (id) => {
+    const response = await axios.get(`${API}/${id}`);
+
     return response.data;
   }
 );
@@ -23,6 +32,10 @@ export const productsSlice = createSlice({
     builder.addCase(getProducts.fulfilled, (state, action) => {
       console.log(action.payload);
       state.products = action.payload;
+    });
+    builder.addCase(getOneProduct.fulfilled, (state, action) => {
+      state.oneProduct = action.payload;
+      console.log("One Product Response:", action.payload);
     });
   },
 });

@@ -1,0 +1,22 @@
+.main_container {
+  margin: 70px;
+}
+
+.product_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.img_container img {
+  width: 205px;
+  height: 307px;
+}
+.product_text {
+  max-width: 205px;
+  line-height: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 13px;
+}
