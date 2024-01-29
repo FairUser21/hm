@@ -11,6 +11,7 @@ import HmHome from "../pages/HmHome";
 import Register from "../components/Auth/Register";
 import Login from "../components/Auth/Login";
 import ProductDetails from "../components/Products/ProductDetails";
+import AllProducts from "../pages/AllProducts";
 
 const MainRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const MainRoutes = () => {
         <Route path='/sales' element={<Sale />}></Route>
         <Route path='/sign-up' element={<Register />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/products' element={<AllProducts />}></Route>
 
         <Route path='/details/:id' element={<ProductDetails />}>
           {" "}
