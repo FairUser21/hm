@@ -23,6 +23,7 @@
   list-style-type: none;
   gap: 10px;
   font-size: 13px;
+  margin-right: 50px;
 }
 .nav a {
   text-decoration: none;
@@ -35,4 +36,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon {
+  font-size: large;
 }

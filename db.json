@@ -3,10 +3,12 @@
     {
       "id": 1,
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "price": 13.99,
+      "description": "Cap in cotton twill with sweatband in cotton fabric. Adjustable tab at back with metal fastener.",
       "category": "men",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "type": "hat",
+      "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F79%2F9d%2F799d7447d76ac1d0a706346fbef02c61f4f71230.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_accessories_hatscaps_caps%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+
       "rating": 3.9,
       "discount": 10
     },
@@ -16,6 +18,7 @@
       "price": 22.3,
       "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
       "category": "men",
+      "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       "rating": 4.1,
       "discount": 15
@@ -26,6 +29,7 @@
       "price": 55.99,
       "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
       "category": "men",
+      "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       "rating": 4.7,
       "discount": 25
@@ -36,6 +40,7 @@
       "price": 15.99,
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "category": "men",
+      "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
       "rating": 3,
       "discount": 20
@@ -46,6 +51,7 @@
       "price": 39.99,
       "description": "Empire-line dress in sequin-embroidered tulle. Round neckline, keyhole opening at back of neck with a button, and short balloon sleeves. Gathered seam above hem forming a wide flounce. Lined.",
       "category": "kids",
+      "type": "dress",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4c%2Fd1%2F4cd1f00aba97901bd675cc79ee185407c5eb4ea4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4.6,
       "discount": 50
@@ -56,6 +62,7 @@
       "price": 19.99,
       "description": "Sweatshirt with a motif at front and soft, brushed inside. Dropped shoulders, long sleeves, and ribbing at neckline, cuffs, and hem.",
       "category": "kids",
+      "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2Fe7%2F44e737910750ff7df433359aa0d55d154dd03094.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_jumperssweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 3.9,
       "discount": 33
@@ -66,6 +73,7 @@
       "price": 24.99,
       "description": "Jeans in thick cotton denim. Loose fit through hip and thigh. Paper-bag waist, elasticized waistband, and mock fly with button. Diagonal side pockets, open back pockets, and wide legs.",
       "category": "kids",
+      "type": "bottom-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2F12%2F431207eeed5fb4e7ecbf67abf11062b034bc0487.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 3,
       "discount": 30
@@ -76,6 +84,7 @@
       "price": 34.99,
       "description": "Jacket in water-repellent, functional fabric. Detachable hood, stand-up collar, and zipper at front with anti-chafe chin guard. Diagonal front pockets with concealed hook-loop fastening, covered elastic at cuffs and hem, and taffeta lining. BIONIC-FINISH® ECO water-repellent coating without fluorocarbons.",
       "category": "kids",
+      "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe2%2F7d%2Fe27d150d03908de05d83918f5b519de852d96b5b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4.5,
       "discount": 45
@@ -86,6 +95,7 @@
       "price": 19.99,
       "description": "Loose-fit sweatshirt hoodie with a printed design and soft, brushed inside. Hood with wrapover front. Dropped shoulders, long sleeves, and ribbing at cuffs and hem.",
       "category": "kids",
+      "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff0%2F1a%2Ff01ab044f2d86a6de69bd1e9b733650dc490edaa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_clothing_jumperssweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.3,
       "discount": 46
@@ -96,6 +106,7 @@
       "price": 69.99,
       "description": "King/queen duvet cover set in woven cotton fabric. Two pillowcases with envelope opening. Thread count 144.",
       "category": "hmhome",
+      "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcb%2F03%2Fcb036b00a9cb9ce6d8ba4301fae673c15d8f4b85.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BENVIRONMENT%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4,
       "discount": 10
@@ -106,6 +117,7 @@
       "price": 16.99,
       "description": "A set of three round storage baskets in woven seagrass. Small basket: Height 2 1/4 in. Diameter 7 1/2 in. Medium basket: Height 3 1/4 in. Diameter 8 1/4 in. Large basket: Height 4 in. Diameter 9 1/2 in.",
       "category": "hmhome",
+      "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F33%2F38%2F3338d8b30de2cadc3878bea75aa00c6e4bd42623.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.8,
       "discount": 10
@@ -116,6 +128,7 @@
       "price": 9.99,
       "description": "Small candle lantern in fluted glass. Suitable for both tealights and candles. Diameter at widest point 3 1/4 in. Height 2 1/4 in.",
       "category": "hmhome",
+      "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1f%2F6f%2F1f6ffc2653e47610b01e64296cba0434a783e3d8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.8,
       "discount": 10
@@ -125,6 +138,7 @@
       "title": "Scented Candle in Glass Holder",
       "price": 6.99,
       "description": "Scented candle in a glass holder with a lid. Height 2 1/4 in. Diameter 2 1/4 in. Burn time 12 hours.",
+      "type": "home",
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F17%2F1c%2F171ce62df1ab4a8c5ae34930a7f7954fe7344466.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4,
@@ -135,6 +149,7 @@
       "title": "3-pack Mini Stoneware Vases",
       "price": 22.99,
       "description": "Set of small, glazed stoneware vases in various shapes. Supplied in a cardboard box. Height 4 in.",
+      "type": "home",
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F69%2Fda%2F69dae45b35b59d9b593924f607c0c9f067ffa8ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3,
@@ -142,31 +157,34 @@
     },
     {
       "id": 15,
-      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-      "price": 56.99,
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "title": "Curvy Fit Wide Ultra High Jeans",
+      "price": 45.99,
+      "description": "Curvy-fit, 5-pocket jeans in thick cotton denim, designed for less gaping at waist and more room through hip and thigh. Extra-high waist, zip fly with button, and straight, wide legs.",
       "category": "women",
-      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "type": "bottom-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/1f/39/1f3905e17104dda26f606369e20a7b3b0b5d1436.jpg],origin[dam],category[ladies_divided_jeans_wide],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
       "rating": 3.5,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 16,
-      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-      "price": 29.95,
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "title": "Short Textured-knit Cardigan",
+      "price": 49.99,
+      "description": "Short, fitted cardigan in a textured knit. Round neckline, buttons at front, mock welt chest pockets, and long sleeves.",
       "category": "women",
-      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/e2/f3/e2f3e28c5733c33b517b943186af0fd4e505d50d.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
       "rating": 3.9,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 17,
-      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price": 39.99,
-      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "title": "Half-zip Sweater",
+      "price": 54.99,
+      "description": "Knit sweater in a cotton blend. High collar, half-zip, and long raglan sleeves. Ribbing at collar, cuffs, and hem.",
       "category": "women",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2Fa5%2F0aa521943f01d62cfe703a337ee5db51c3b6ffc6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.8,
       "discount": 10
     },
@@ -176,27 +194,30 @@
       "price": 9.85,
       "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
       "category": "women",
+      "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
       "rating": 4.7,
       "discount": 10
     },
     {
       "id": 19,
-      "title": "Opna Women's Short Sleeve Moisture",
-      "price": 7.95,
-      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "title": "Asymmetric-neck Top",
+      "price": 31.99,
+      "description": "Fitted top in stretch jersey. Asymmetric neckline, double layers at top, and gathers at shoulders and at sides.",
       "category": "women",
-      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/a7/87/a787e3a7a13b8713610aa63fc62a1660db8e5b62.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
       "rating": 4.5,
       "discount": 10
     },
     {
       "id": 20,
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-      "price": 12.99,
-      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "title": "Loafers",
+      "price": 104.0,
+      "description": "Classic loafers with decorative appliqués on uppers. Leather lining and insoles. Heel height 1/2 in.",
       "category": "women",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "type": "shoes",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa2%2Fad%2Fa2ada363d73618a165a348ab1acd2f87f5e131fa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_premium_selection_shoes%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.6,
       "discount": 10
     },
@@ -206,6 +227,7 @@
       "title": "Striped Hand Towel",
       "price": 12.99,
       "description": "Striped hand towel in highly absorbent, soft cotton terry. Woven, solid-color hem at short sides and hanger loop at one short side. Easy to mix and match for a personalized style. Weight: 480 GSM. Series includes towels in several different sizes.",
+      "type": "home",
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb3%2F6b%2Fb36b436a8a45fc61d193115f93561e0d4297a8c6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BENVIRONMENT%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 3.6,
@@ -216,6 +238,7 @@
       "title": "DryMove™ Sports Joggers",
       "price": 35.99,
       "description": "Relaxed-fit sports joggers in DryMove™ functional fabric to wick away moisture from skin and keep you comfortably dry while moving. High waist, waistband with drawstring and covered elastic, and side-seam pockets. Tapered legs with covered elastic at hems.",
+      "type": "bottom-wear",
       "category": "sport",
       "image": " https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbb%2F98%2Fbb987297498972bec4805e03bd7779fb0e673526.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bsportswear_women_activity_training%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.6,
@@ -226,6 +249,7 @@
       "title": "DryMove™ Sports Crop Top",
       "price": 14.99,
       "description": "Short, slim-fit sports shirt in DryMove™ functional fabric to wick away moisture from skin and keep you comfortably dry while moving. Round neckline and short sleeves.",
+      "type": "top-wear",
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F47%2Fd3%2F47d34abc2b115959caae99d5405eb64612ebce22.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4,
@@ -237,6 +261,7 @@
       "title": "Sports Cargo Joggers",
       "price": 54.99,
       "description": "Regular-fit sports joggers in woven fabric with four-way stretch for added comfort and freedom of movement. Smocked elastic at waistband and drawstring with cord stopper. Side pockets with zipper, leg pockets with flap, and gently tapered legs with covered elastic at hems.",
+      "type": "bottom-wear",
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F37%2F80%2F37807577be04d95c8c76415ebff14b5caced8b9e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]",
       "rating": 4,
@@ -248,6 +273,7 @@
       "title": "DryMove™ Loose Fit Training Hoodie",
       "price": 54.99,
       "description": "Loose-fit training hoodie in DryMove™ functional fabric to wick away moisture from skin and keep you comfortably dry while moving. Lined, wrapover hood, dropped shoulders, long sleeves, and a kangaroo pocket. Ribbing at cuffs and hem.",
+      "type": "top-wear",
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffe%2F79%2Ffe79b7a5637a2533b6178467ff9425eea9d64346.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4,
@@ -260,6 +286,7 @@
       "price": 46.99,
       "salePrice": 18.99,
       "description": "Short, fitted polo shirt in a soft, fine knit. Collar, V-shaped opening at front, and short sleeves. Ribbing at cuffs and hem.",
+      "type": "top-wear",
       "category": "sale",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F51%2Fa5%2F51a5f2b29713b0754c04f21ed8f6c5ced883c40c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4,
@@ -271,6 +298,7 @@
       "price": 104.0,
       "salePrice": 49.99,
       "description": "Single-breasted jacket in woven fabric with wool content. Notched lapels, buttons at front, and welt front pockets with flap. Vent at back. Lined.",
+      "type": "top-wear",
       "category": "sale",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa2%2Fe1%2Fa2e16920a5c9fd050dbe4266338fbfccd6f6a6c8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4,
@@ -284,6 +312,7 @@
       "salePrice": 160.99,
       "description": "Jacket in soft leather. Collar, zipper at front, and long sleeves with a zipper at cuffs. Diagonal front pockets with zipper and an inner pocket. Lined.",
       "category": "sale",
+      "type": "top-wear",
       "image": " https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ff5%2F21%2Ff5210690cc6be0f227805ab08561d727b6f855ac.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4.3,
       "discount": 10
@@ -295,9 +324,166 @@
       "salePrice": 34.99,
       "description": "Flared, 5-pocket jeans in non-stretch cotton denim. Loose fit from seat to hem with extra room around legs. Regular waist, zip fly, and dropped gusset.",
       "category": "sale",
+      "type": "bottom-wear",
       "image": " https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F5b%2Fbe%2F5bbeabb3cd820ceb1d97d6a81018e2e659a324b7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jeans_bootcut%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4.3,
       "discount": 10
+    },
+
+    {
+      "id": 31,
+      "title": "Patterned Bandeau Dress",
+      "price": 104.0,
+      "description": "Ankle-length bandeau dress in patterned, woven cotton fabric. Sweetheart neckline and small, V-shaped opening at center bust with a concealed wire. Fitted, gathered bodice with boning at sides and a concealed zipper at back. Flared skirt and straight-cut hem. Lined.",
+      "category": "women",
+      "type": "dress",
+      "image": "   https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F63%2F8d%2F638dcdaac9e1127a8d40cbaa00895d2e39c153bd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 3.6,
+      "discount": 10
+    },
+    {
+      "id": 32,
+      "title": "Cotton Dress",
+      "price": 44.99,
+      "description": "Loose-fit, knee-length, A-line dress in woven cotton fabric. Round neckline with V-shaped opening and narrow ties at front. Gently dropped shoulders, long, voluminous sleeves with a gathered seam at top, and narrow elastic at cuffs. Gathered seam at lower section for added volume. Unlined.",
+      "category": "women",
+      "type": "dress",
+      "image": "  https://lp2.hm.com/hmgoepprod?set=source[/40/d0/40d004bd224f24444377b78a35b0b575f7b9b9d7.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 3.6,
+      "discount": 10
+    },
+    {
+      "id": 33,
+      "title": "Shirt Dress with Belt",
+      "price": 74.99,
+      "description": "Short-sleeved, calf-length dress in viscose twill. Collar, buttons at front, and chest pockets with flap and button. Gathered seam at waist and eyelet belt with a metal buckle.",
+      "category": "women",
+      "type": "dress",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F64%2F5d%2F645d26c578bfd76afa6c01a4dd4f90fddf39d12d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 4,
+      "discount": 0
+    },
+
+    {
+      "id": 34,
+      "title": "Oversized Cashmere-blend Sweater",
+      "price": 179.0,
+      "description": "Oversized, knit sweater in a soft cashmere and wool blend. Round, ribbed neckline, heavily dropped shoulders, and extra-long sleeves. Wide ribbing at cuffs and hem.",
+      "category": "women",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/02/91/0291a822b60fd332cc243552a66b0d03ae20ebc6.jpg],origin[dam],category[ladies_premium_selection_cardigansjumpers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 35,
+      "title": "Wide-leg Twill Pants",
+      "price": 29.99,
+      "description": "Pants in cotton twill. High waist, zip fly with button, and front and back pockets. Straight, wide legs.",
+      "category": "women",
+      "type": "bottom-wear",
+      "image": " https://lp2.hm.com/hmgoepprod?set=source[/f2/3f/f23ff635b17ebb67292070c36e40cc8bfbb96665.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 36,
+      "title": "Dress Pants",
+      "price": 29.99,
+      "description": "Loose-fit, dressy pants in twill with pleats at top. Extended waistband tab with concealed hook-and-eye fastener and a zip fly. Diagonal side pockets, mock welt back pockets, and straight, wide legs with creases.",
+      "category": "women",
+      "type": "bottom-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/40/99/409962e270b953334040fa8882dab18c7f13d7f0.jpg],origin[dam],category[ladies_divided_new_clothes],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 37,
+      "title": "Sneakers",
+      "price": 44.99,
+      "description": "Sneakers with a padded upper edge, lacing, and a tongue. Mesh lining and lightly textured, patterned soles. Sole thickness 3/4 in.",
+      "category": "women",
+      "type": "shoes",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd1%2F18%2Fd11862ac3b4643f401833f9de514982a5d435c63.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 38,
+      "title": "Loafers",
+      "price": 54.99,
+      "description": "Loafers with square toes and a tab at front with a decorative metal detail. Satin lining. Heel height approx. 1 1/2 in.",
+      "category": "women",
+      "type": "shoes",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/eb/fe/ebfe50f43f676a5cdcacd92df66639d2909c05ea.jpg],origin[dam],category[Ladies_shoes_loafers],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 39,
+      "title": "Loose Fit Cargo Pants",
+      "price": 69.99,
+      "description": "Loose-fit cargo pants in herringbone-weave fabric with a generous but not oversized silhouette. Elasticized, drawstring waistband, pleats at top, and mock fly. Side pockets, a back pocket with flap and snap fasteners, and leg pockets with flap and hook-loop fasteners.",
+      "category": "men",
+      "type": "bottom-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/25/35/25355fe68367d1d448967434915473c65316d303.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.5,
+      "discount": 0
+    },
+    {
+      "id": 40,
+      "title": "Oversized Fit Hoodie with Motif",
+      "price": 54.99,
+      "description": "Oversized sweatshirt hoodie in heavyweight fabric with soft brushed inside, a motif, and a baggy, extra-loose silhouette. Lined drawstring hood, kangaroo pocket, dropped shoulders, and long sleeves. Ribbing at cuffs and hem.",
+      "category": "men",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fae%2Fb6%2Faeb60ea5e7c40c5df9c8d75a379b81509728e636.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 4.7,
+      "discount": 0
+    },
+    {
+      "id": 41,
+      "title": "Loose Fit Sweatshirt",
+      "price": 69.99,
+      "description": "Loose-fit sweatshirt in heavyweight cotton with soft, brushed inside and a generous, but not oversized silhouette. Crew neck, long raglan sleeves, and ribbing at neck, cuffs, and hem.",
+      "category": "men",
+      "type": "top-wear",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/73/0b/730b9b2c43a4f1b3caf59ab4859b483d29d07c0b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.7,
+      "discount": 0
+    },
+    {
+      "id": 42,
+      "title": "Sneakers",
+      "price": 37.99,
+      "description": "Sneakers with a padded upper edge and tongue, and lacing at front. Lining and insoles in piqué. Fluted rubber soles. Sole thickness 1 1/4 in.",
+      "category": "men",
+      "type": "shoes",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F8c%2F018c8e4a2bbbdd4b8f2b5ea6df83f0fedd1fb906.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sneakers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 4.7,
+      "discount": 0
+    },
+    {
+      "id": 43,
+      "title": "Sneakers",
+      "price": 46.99,
+      "description": "Sneakers with a padded upper edge and lacing at front. Pique insoles and patterned rubber soles. Sole thickness 1 in.",
+      "category": "men",
+      "type": "shoes",
+      "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd2%2F22%2Fd222304c1a267ecdd891f06c2ffd6c3fee7c4904.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_shoes_sneakers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+      "rating": 4.7,
+      "discount": 0
+    },
+    {
+      "id": 44,
+      "title": "Rib-knit Cotton Hat",
+      "price": 19.99,
+      "description": "Sneakers with a padded upper edge and lacing at front. Pique insoles and patterned rubber soles. Sole thickness 1 in.",
+      "category": "men",
+      "type": "hat",
+      "image": " https://lp2.hm.com/hmgoepprod?set=source[/6f/a7/6fa7aa5c892572d0464849b0941d1565f79653ff.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
+      "rating": 4.7,
+      "discount": 0
     }
   ]
 }

@@ -1,14 +1,11 @@
 import React from "react";
-import Navbar from "../Nav/Navbar";
-import CategoryNav from "../Nav/CategoryNav";
-import Products from "../Products/Products";
+
+import Hero from "./Hero";
 
 const Homepage = () => {
   return (
     <div>
-      <Navbar />
-      <CategoryNav />
-      <Products />
+      <Hero />
     </div>
   );
 };

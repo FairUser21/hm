@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.denim img {
+  width: 736px;
+  height: 894px;
+}
+.spring img {
+  width: 736px;
+  height: 894px;
+}
+.header {
+  width: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+  background-color: #63786a;
+  padding-top: 22px;
+}
+.bold {
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+
+.smalltext {
+  color: white;
+}
+.membercode {
+  width: 736px;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-size: 26px;
+  color: red;
+  font-weight: 600;
+}
+.membercode p {
+  width: 90%;
+}
