@@ -41,7 +41,7 @@ export const productsSlice = createSlice({
     });
     builder.addCase(getOneProduct.fulfilled, (state, action) => {
       state.oneProduct = action.payload;
-      console.log("One Product Response:", state.oneProduct);
+      // console.log("One Product Response:", state.oneProduct);
     });
   },
 });
