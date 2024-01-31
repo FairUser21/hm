@@ -12,7 +12,7 @@ const CartList = ({ cart, dispatch }) => {
   return (
     <div>
       {cart.products.map(({ item, count, subPrice }) => (
-        <CartItem item={item} count={count} subPrice={subPrice} />
+        <CartItem item={item} count={count} subPrice={subPrice} key={item.id} />
       ))}
     </div>
   );

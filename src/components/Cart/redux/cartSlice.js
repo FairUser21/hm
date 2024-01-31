@@ -21,7 +21,22 @@ export const cartSlice = createSlice({
         count: 1,
         subPrice: action.payload.price,
       };
-      cart.products.push(oneProduct);
+
+      let res = cart.products.filter(
+        (item) => item.item.id === action.payload.id
+      );
+
+      if (res.length > 0) {
+        cart.products.map((item) => {
+          if (item.item.id == action.payload.id) {
+            item.count++;
+            return item;
+          }
+          return item;
+        });
+      } else {
+        cart.products.push(oneProduct);
+      }
 
       cart.totalPrice = calcTotalPrice(cart.products);
       localStorage.setItem("cart", JSON.stringify(cart));
@@ -71,4 +86,8 @@ export const { addToCart, getCart, changeCount, deleteItemInCart } =
 
 export default cartSlice.reducer;
 
-// cart: {products: [{item: {}, count: 0, subPrice: 0}, {item: {}, count: 0, subPrice: 0}], totalPrice: 0}
+// cart: {
+//   products: [
+//   {item: {}, count: 0, subPrice: 0, size: 1}
+// ], totalPrice: 0
+// }

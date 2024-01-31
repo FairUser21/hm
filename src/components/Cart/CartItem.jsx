@@ -8,32 +8,26 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 const CartItem = ({ item, count, subPrice }) => {
   const dispatch = useDispatch();
   return (
-    <div className='wrapper'>
-      <div className='img_container'>
-        <img
-          className='item-img'
-          src={item.image}
-          alt=''
-          width='350'
-          height='350'
-        />
+    <div className="wrapper">
+      <div className="img_container">
+        <img className="item-img" src={item.image} alt="" />
       </div>
-      <div className='content'>
-        <div className='content_text'>
+      <div className="content">
+        <div className="content_text">
           <div key={item.id}>
-            <p className='item_title'>{item.title}</p>
-            <p className='item_price'>${item.price}</p>
-            <p className='item_size'>Total: ${subPrice}</p>
-            <div className='interaction'>
-              <div className='favourite_icon'>
-                <div className='icon'>
+            <p className="item_title">{item.title}</p>
+            <p className="item_price">${item.price}</p>
+            <p className="item_size">Total: ${subPrice}</p>
+            <div className="interaction">
+              <div className="favourite_icon">
+                <div className="icon">
                   <FavoriteBorderIcon />
                 </div>
               </div>
-              <div className='input'>
+              <div className="input">
                 <input
-                  className='count_input'
-                  type='number'
+                  className="count_input"
+                  type="number"
                   value={count}
                   onChange={(e) =>
                     dispatch(
@@ -45,7 +39,7 @@ const CartItem = ({ item, count, subPrice }) => {
             </div>
           </div>
         </div>
-        <div className='delete_button'>
+        <div className="delete_button">
           <DeleteOutlineIcon
             onClick={() => dispatch(deleteItemInCart(item.id))}
           />

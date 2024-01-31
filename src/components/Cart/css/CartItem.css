@@ -4,9 +4,11 @@
   width: 800px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 200px;
 }
 .content {
-  width: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,9 +18,15 @@
 
   flex-direction: column;
 }
+.img_container {
+  height: 90%;
+  width: 200px;
+}
 .img_container img {
-  width: 150px;
+  width: 100%;
   padding: 20px;
+  height: 100%;
+  object-fit: scale-down;
 }
 .item_title {
   font-weight: 600;
@@ -40,6 +48,8 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 60px;
+  display: flex;
+  justify-content: center;
 }
 .interaction {
   display: flex;
@@ -47,4 +57,5 @@
 }
 .delete_button {
   padding: 20px;
+  align-self: flex-start;
 }
