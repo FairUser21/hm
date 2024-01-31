@@ -1,0 +1,50 @@
+.wrapper {
+  margin-left: 50px;
+  background-color: white;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content_text {
+  display: flex;
+
+  flex-direction: column;
+}
+.img_container img {
+  width: 150px;
+  padding: 20px;
+}
+.item_title {
+  font-weight: 600;
+  align-self: flex-start;
+}
+.item_price {
+  font-weight: 600;
+}
+.count_input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60px; /* Adjust the width as needed */
+}
+.favourite_icon {
+  padding-top: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60px;
+}
+.interaction {
+  display: flex;
+  gap: 10px;
+}
+.delete_button {
+  padding: 20px;
+}

@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-import { changeCount, deleteItemInCart, getCart } from "./redux/cartSlice";
+
+import CartItem from "./CartItem";
+import { getCart } from "./redux/cartSlice";
 
 const CartList = ({ cart, dispatch }) => {
   console.log(cart);
@@ -10,20 +12,7 @@ const CartList = ({ cart, dispatch }) => {
   return (
     <div>
       {cart.products.map(({ item, count, subPrice }) => (
-        <div key={item.id}>
-          <img src={item.image} alt="" width="350" height="350" />
-          <p>{item.title}</p>
-          <input
-            type="number"
-            value={count}
-            onChange={(e) =>
-              dispatch(changeCount({ id: item.id, count: e.target.value }))
-            }
-          />
-          <button onClick={() => dispatch(deleteItemInCart(item.id))}>
-            Delete
-          </button>
-        </div>
+        <CartItem item={item} count={count} subPrice={subPrice} />
       ))}
     </div>
   );

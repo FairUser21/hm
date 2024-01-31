@@ -1,0 +1,4 @@
+.cart_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}

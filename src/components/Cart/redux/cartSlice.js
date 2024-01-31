@@ -15,12 +15,14 @@ export const cartSlice = createSlice({
       if (!cart) {
         cart = { products: [], totalPrice: 0 };
       }
+
       let oneProduct = {
         item: action.payload,
         count: 1,
         subPrice: action.payload.price,
       };
       cart.products.push(oneProduct);
+
       cart.totalPrice = calcTotalPrice(cart.products);
       localStorage.setItem("cart", JSON.stringify(cart));
     },
