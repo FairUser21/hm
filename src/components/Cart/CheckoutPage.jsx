@@ -51,7 +51,6 @@ const CheckoutPage = ({ cart }) => {
             className='paypal'
             src='https://logos-world.net/wp-content/uploads/2020/07/PayPal-Logo.png'
             alt=''
-            width={"60px"}
           />
         </div>
         <div className='returnpolicy'>
