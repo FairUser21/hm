@@ -1,0 +1,22 @@
+.container {
+  background-color: white;
+  width: 400px;
+  margin-right: 50px;
+}
+.discount_text {
+  display: flex;
+  gap: 150px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+button {
+  width: 332px;
+  height: 47px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+}
