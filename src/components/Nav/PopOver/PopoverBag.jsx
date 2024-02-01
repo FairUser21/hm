@@ -4,6 +4,9 @@ import { Popover } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { getCart, addToCart } from "../../Cart/redux/cartSlice";
 import PopoverBagItem from "./PopoverBagItem";
+import { Key } from "@mui/icons-material";
+import PopoverCheckout from "./PopoverCheckout";
+import "../PopOver/css/PopoverBag.css";
 
 const PopoverBag = () => {
   const dispatch = useDispatch();
@@ -26,21 +29,21 @@ const PopoverBag = () => {
 
   const open = Boolean(anchorEl);
   return (
-    <>
+    <div className='popoverBag_container'>
       <li
         aria-owns={open ? "mouse-over-popover" : undefined}
-        aria-haspopup="true"
+        aria-haspopup='true'
         onMouseEnter={handlePopoverOpen}
         onMouseLeave={handlePopoverClose}
       >
-        <div className="icon">
+        <div className='icon'>
           {" "}
           <ShoppingCartOutlinedIcon />
         </div>
-        Shopping-Bag
+        Shopping Bag
       </li>
       <Popover
-        id="mouse-over-popover"
+        id='mouse-over-popover'
         sx={{
           pointerEvents: "none",
         }}
@@ -60,12 +63,13 @@ const PopoverBag = () => {
         <div>
           <ul>
             {cart.products.map((item) => (
-              <PopoverBagItem>{item.item.title}</PopoverBagItem>
+              <PopoverBagItem item={item} />
             ))}
           </ul>
+          <PopoverCheckout cart={cart} />
         </div>
       </Popover>
-    </>
+    </div>
   );
 };
 

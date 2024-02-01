@@ -1,0 +1,27 @@
+.popover_container {
+  width: 400px;
+  height: auto;
+}
+
+.delivery_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.popover_total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shopping_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.checkout {
+  background-color: black;
+  color: white;
+}
