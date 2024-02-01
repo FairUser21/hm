@@ -8,19 +8,25 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 const CartItem = ({ item, count, subPrice }) => {
   const dispatch = useDispatch();
   return (
-    <div className="wrapper">
-      <div className="img_container">
-        <img className="item-img" src={item.image} alt="" />
+    <div className='cartItem_wrapper'>
+      <div className='cartItem_img'>
+        <img
+          className='item-img'
+          src={item.image}
+          alt=''
+          width='350'
+          height='350'
+        />
       </div>
-      <div className="content">
-        <div className="content_text">
+      <div className='cartItem_content'>
+        <div className='cartItem_text'>
           <div key={item.id}>
-            <p className="item_title">{item.title}</p>
-            <p className="item_price">${item.price}</p>
-            <p className="item_size">Total: ${subPrice}</p>
-            <div className="interaction">
-              <div className="favourite_icon">
-                <div className="icon">
+            <p className='cartItem_title'>{item.title}</p>
+            <p className='cartItem_price'>${item.price}</p>
+            <p className='cartItem_size'>Total: ${subPrice}</p>
+            <div className='interaction'>
+              <div className='favourite_icon'>
+                <div className='cartItem_icon'>
                   <FavoriteBorderIcon />
                 </div>
               </div>
