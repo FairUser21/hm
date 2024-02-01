@@ -1,7 +1,6 @@
 import React from "react";
 import "../PopOver/css/PopoverBagItem.css";
 import CheckoutPage from "../../Cart/CheckoutPage";
-import PopoverCheckout from "./PopoverCheckout";
 
 const PopoverBagItem = ({ item, subPrice }) => {
   console.log(item, "item");
