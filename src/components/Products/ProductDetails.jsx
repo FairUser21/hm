@@ -7,10 +7,9 @@ import StarIcon from "@mui/icons-material/Star";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import StoreMallDirectoryOutlinedIcon from "@mui/icons-material/StoreMallDirectoryOutlined";
 import ErrorOutlineOutlinedIcon from "@mui/icons-material/ErrorOutlineOutlined";
-import CategoryNav from "../Nav/CategoryNav";
 import "./ProductDetails.css";
-import Navbar from "../Nav/Navbar";
-import { addToCart } from "../Cart/redux/cartSlice";
+import { addToCart, getCart } from "../Cart/redux/cartSlice";
+import { Popover, Typography } from "@mui/material";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();
@@ -19,8 +18,19 @@ const ProductDetails = () => {
   useEffect(() => {
     dispatch(getOneProduct(id));
   }, [id]);
-  // console.log("one product", oneProduct);
 
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const idPop = open ? "simple-popover" : undefined;
   return (
     <div>
       <div className='productdisplay'>
@@ -72,12 +82,35 @@ const ProductDetails = () => {
           </div>
           <button
             className='product-cta'
-            onClick={() => {
+            onClick={(e) => {
               dispatch(addToCart(oneProduct));
+              handleClick(e);
+              dispatch(getCart());
             }}
+            aria-describedby={idPop}
+            variant='contained'
           >
             Add To Cart
           </button>
+          <Popover
+            id={idPop}
+            open={open}
+            onClose={handleClose}
+            anchorReference='anchorPosition'
+            anchorPosition={{ top: NaN, left: 2600 }}
+            anchorOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "left",
+            }}
+          >
+            <Typography sx={{ p: 2 }}>
+              The item is added to the cart!
+            </Typography>
+          </Popover>
           <div className='productdisplay-right-smalltext'>
             <div className='productdisplay-right-store'>
               <StoreMallDirectoryOutlinedIcon />

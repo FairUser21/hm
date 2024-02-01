@@ -4,7 +4,10 @@
   width: 800px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 200px;
 }
+
 .cartItem_content {
   width: 100%;
   display: flex;
@@ -16,11 +19,11 @@
 
   flex-direction: column;
 }
+
 .cartItem_img img {
   width: 150px;
   height: 200px;
-  padding: 20px;
-}
+
 .cartItem_title {
   font-weight: 600;
   align-self: flex-start;
@@ -41,6 +44,8 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 60px;
+  display: flex;
+  justify-content: center;
 }
 .cartItem_icon {
   display: flex;
@@ -53,4 +58,5 @@
 .delete_button {
   align-self: flex-start;
   padding: 20px;
+  align-self: flex-start;
 }

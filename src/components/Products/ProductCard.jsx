@@ -8,16 +8,16 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      className="product_container"
+      className='product_container'
       onClick={() => navigate(`/details/${product.id}`)}
     >
-      <div className="img_container">
-        <img src={product.image} alt="" />
+      <div className='productCard_img'>
+        <img src={product.image} alt='' />
       </div>
-      <div className="product_text">
-        <p className="title">{product.title}</p>
+      <div className='product_text'>
+        <p className='title'>{product.title}</p>
 
-        <div className="price">
+        <div className='price'>
           <p>
             {product.discount > 0
               ? product.price -
@@ -26,7 +26,7 @@ const ProductCard = ({ product }) => {
           </p>
           -<span>{product.price}</span>
         </div>
-        <p className="rating">{product.rating}</p>
+        <p className='rating'>{product.rating}</p>
       </div>
     </div>
   );

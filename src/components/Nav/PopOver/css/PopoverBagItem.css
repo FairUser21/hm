@@ -1,0 +1,18 @@
+.shopping_wrapper {
+  width: 300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+  font-size: 13px;
+}
+
+.img_shopping img {
+  width: 70px;
+  height: 100px;
+}
+.shopping_text {
+  line-height: 0.3rem;
+  font-weight: 600;
+}

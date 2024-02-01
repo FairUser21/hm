@@ -25,6 +25,7 @@ const Products = () => {
       <div className='all_list'>
         <h1>View All</h1>
       </div>
+
       <ProductType
         searchParams={searchParams}
         setSearchParams={setSearchParams}

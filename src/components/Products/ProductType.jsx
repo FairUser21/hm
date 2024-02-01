@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getTypes } from "./store/productsSlice";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import "./ProductType.css";
 const ProductType = ({ searchParams, setSearchParams }) => {
   const { types, products } = useSelector((state) => state.products);
   const dispatch = useDispatch();

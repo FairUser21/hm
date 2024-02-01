@@ -3,8 +3,9 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import { Popover } from "@mui/material";
+import PopoverBag from "./PopOver/PopoverBag";
 
 const pagesLeft = [
   {
@@ -28,16 +29,11 @@ const pagesRight = [
     link: "/favourites",
     icon: <FavoriteBorderIcon />,
   },
-  {
-    title: "Shopping bag",
-    link: "/shopping-bag",
-    icon: <ShoppingCartOutlinedIcon />,
-  },
 ];
 const Navbar = () => {
   return (
-    <div className='nav'>
-      <div className='nav_left'>
+    <div className="nav">
+      <div className="nav_left">
         <ul>
           {pagesLeft.map((page, index) => (
             <Link to={page.link} key={index}>
@@ -47,24 +43,37 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <Link to='/'>
+      <Link to="/">
         <img
-          src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png'
-          alt=''
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png"
+          alt=""
         />
       </Link>
-      <div className='nav_right'>
+      <div className="nav_right">
         <ul>
-          {" "}
-          {pagesRight.map((page, index) => (
-            <Link to={page.link} key={index}>
-              <li>
-                <div className='icon'> {page.icon}</div>
-
-                {page.title}
-              </li>
-            </Link>
-          ))}
+          {/* {pagesRight.map((page, index) => ( */}
+          <Link to="/sign-in">
+            <li>
+              <div className="icon">
+                {" "}
+                <PersonOutlineOutlinedIcon />
+              </div>
+              Sign in
+            </li>
+          </Link>
+          <Link to="/favorites">
+            <li>
+              <div className="icon">
+                {" "}
+                <FavoriteBorderIcon />
+              </div>
+              Favorites
+            </li>
+          </Link>
+          <Link to="/shopping-bag">
+            <PopoverBag />
+          </Link>
+          {/* ))} */}
         </ul>
       </div>
     </div>

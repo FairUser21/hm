@@ -30,10 +30,10 @@ const CartItem = ({ item, count, subPrice }) => {
                   <FavoriteBorderIcon />
                 </div>
               </div>
-              <div className='input'>
+              <div className="input">
                 <input
-                  className='count_input'
-                  type='number'
+                  className="count_input"
+                  type="number"
                   value={count}
                   onChange={(e) =>
                     dispatch(
@@ -45,7 +45,7 @@ const CartItem = ({ item, count, subPrice }) => {
             </div>
           </div>
         </div>
-        <div className='delete_button'>
+        <div className="delete_button">
           <DeleteOutlineIcon
             onClick={() => dispatch(deleteItemInCart(item.id))}
           />
