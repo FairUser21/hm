@@ -9,6 +9,10 @@
   flex-direction: column;
   gap: 16px;
 }
+.img_container {
+  display: flex;
+  justify-content: center;
+}
 .img_container img {
   width: 20rem;
   height: 100%;
@@ -92,4 +96,51 @@
   display: flex;
   align-items: center;
   gap: 2px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper {
+  height: 400px;
+}
+.mySwiper {
+  height: 500px;
+  width: 300px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+.swiperText {
+  font-size: 20px;
+  justify-content: left;
+  margin-left: 50px;
+}
+.swipe_products {
+  height: 600px;
+  margin-bottom: 100px;
+}
+.productCard_img {
+  width: 250px;
+  height: 90%;
 }

@@ -10,7 +10,7 @@
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F79%2F9d%2F799d7447d76ac1d0a706346fbef02c61f4f71230.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_accessories_hatscaps_caps%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
 
       "rating": 3.9,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       "rating": 4.1,
-      "discount": 15
+      "discount": 0
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
       "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       "rating": 4.7,
-      "discount": 25
+      "discount": 0
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
       "rating": 3,
-      "discount": 20
+      "discount": 0
     },
     {
       "id": 5,
@@ -53,8 +53,7 @@
       "category": "kids",
       "type": "dress",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4c%2Fd1%2F4cd1f00aba97901bd675cc79ee185407c5eb4ea4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-      "rating": 4.6,
-      "discount": 50
+      "rating": 4.6
     },
     {
       "id": 6,
@@ -65,7 +64,7 @@
       "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2Fe7%2F44e737910750ff7df433359aa0d55d154dd03094.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_girls_clothing_jumperssweatshirts_sweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 3.9,
-      "discount": 33
+      "discount": 0
     },
     {
       "id": 7,
@@ -76,7 +75,7 @@
       "type": "bottom-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2F12%2F431207eeed5fb4e7ecbf67abf11062b034bc0487.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 3,
-      "discount": 30
+      "discount": 0
     },
     {
       "id": 8,
@@ -87,7 +86,7 @@
       "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe2%2F7d%2Fe27d150d03908de05d83918f5b519de852d96b5b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4.5,
-      "discount": 45
+      "discount": 0
     },
     {
       "id": 9,
@@ -98,7 +97,7 @@
       "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff0%2F1a%2Ff01ab044f2d86a6de69bd1e9b733650dc490edaa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_clothing_jumperssweatshirts_hoodies%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.3,
-      "discount": 46
+      "discount": 0
     },
     {
       "id": 10,
@@ -109,7 +108,7 @@
       "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcb%2F03%2Fcb036b00a9cb9ce6d8ba4301fae673c15d8f4b85.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BENVIRONMENT%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 11,
@@ -120,7 +119,7 @@
       "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F33%2F38%2F3338d8b30de2cadc3878bea75aa00c6e4bd42623.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.8,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 12,
@@ -131,7 +130,7 @@
       "type": "home",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1f%2F6f%2F1f6ffc2653e47610b01e64296cba0434a783e3d8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4.8,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 13,
@@ -142,7 +141,7 @@
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F17%2F1c%2F171ce62df1ab4a8c5ae34930a7f7954fe7344466.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
       "rating": 4,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 14,
@@ -153,7 +152,7 @@
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F69%2Fda%2F69dae45b35b59d9b593924f607c0c9f067ffa8ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 15,
@@ -186,7 +185,7 @@
       "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2Fa5%2F0aa521943f01d62cfe703a337ee5db51c3b6ffc6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.8,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 18,
@@ -197,7 +196,7 @@
       "type": "top-wear",
       "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
       "rating": 4.7,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 19,
@@ -208,7 +207,7 @@
       "type": "top-wear",
       "image": "https://lp2.hm.com/hmgoepprod?set=source[/a7/87/a787e3a7a13b8713610aa63fc62a1660db8e5b62.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
       "rating": 4.5,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 20,
@@ -219,7 +218,7 @@
       "type": "shoes",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fa2%2Fad%2Fa2ada363d73618a165a348ab1acd2f87f5e131fa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_premium_selection_shoes%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.6,
-      "discount": 10
+      "discount": 0
     },
 
     {
@@ -231,7 +230,7 @@
       "category": "hmhome",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb3%2F6b%2Fb36b436a8a45fc61d193115f93561e0d4297a8c6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BENVIRONMENT%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 3.6,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 22,
@@ -242,7 +241,7 @@
       "category": "sport",
       "image": " https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbb%2F98%2Fbb987297498972bec4805e03bd7779fb0e673526.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bsportswear_women_activity_training%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.6,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 23,
@@ -253,7 +252,7 @@
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F47%2Fd3%2F47d34abc2b115959caae99d5405eb64612ebce22.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 4,
-      "discount": 10
+      "discount": 0
     },
 
     {
@@ -265,7 +264,7 @@
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F37%2F80%2F37807577be04d95c8c76415ebff14b5caced8b9e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]",
       "rating": 4,
-      "discount": 10
+      "discount": 0
     },
 
     {
@@ -277,7 +276,7 @@
       "category": "sport",
       "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffe%2F79%2Ffe79b7a5637a2533b6178467ff9425eea9d64346.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
       "rating": 4,
-      "discount": 10
+      "discount": 0
     },
 
     {
@@ -339,7 +338,7 @@
       "type": "dress",
       "image": "   https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F63%2F8d%2F638dcdaac9e1127a8d40cbaa00895d2e39c153bd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
       "rating": 3.6,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 32,
@@ -350,7 +349,7 @@
       "type": "dress",
       "image": "  https://lp2.hm.com/hmgoepprod?set=source[/40/d0/40d004bd224f24444377b78a35b0b575f7b9b9d7.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]",
       "rating": 3.6,
-      "discount": 10
+      "discount": 0
     },
     {
       "id": 33,

@@ -1,0 +1,17 @@
+.products_container {
+  margin-left: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.all_list {
+  margin-left: 30px;
+}
+
+.loadmore_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}

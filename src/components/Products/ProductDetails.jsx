@@ -10,6 +10,7 @@ import ErrorOutlineOutlinedIcon from "@mui/icons-material/ErrorOutlineOutlined";
 import "./ProductDetails.css";
 import { addToCart, getCart } from "../Cart/redux/cartSlice";
 import { Popover, Typography } from "@mui/material";
+import ProductSwiper from "./ProductSwiper";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();
@@ -123,6 +124,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
+      <ProductSwiper />
     </div>
   );
 };

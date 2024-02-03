@@ -63,7 +63,7 @@ const PopoverBag = () => {
         <div>
           <ul>
             {cart.products.map((item) => (
-              <PopoverBagItem item={item} />
+              <PopoverBagItem key={item.item.id} item={item} />
             ))}
           </ul>
           <PopoverCheckout cart={cart} />

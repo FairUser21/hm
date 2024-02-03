@@ -5,4 +5,5 @@ ul {
   text-transform: capitalize;
   align-items: center;
   font-weight: 600;
+  cursor: pointer;
 }
