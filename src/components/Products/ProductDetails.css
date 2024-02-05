@@ -101,6 +101,7 @@
   width: 100%;
   height: 100%;
 }
+
 .swiper-wrapper {
   height: 400px;
 }
@@ -111,7 +112,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
 
   /* Center slide text vertically */
   display: flex;
@@ -121,9 +122,8 @@
 
 .swiper-slide img {
   display: block;
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
 }
 
 .swiper {
@@ -137,10 +137,30 @@
   margin-left: 50px;
 }
 .swipe_products {
-  height: 600px;
-  margin-bottom: 100px;
+  height: 700px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.productCard_img {
-  width: 250px;
+.swipeProductCard_img img {
+  width: 230px;
   height: 90%;
+}
+.check {
+  height: 100%;
+  width: 90%;
+  background-color: black;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swipeProduct_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

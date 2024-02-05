@@ -18,7 +18,7 @@ const CheckoutPage = ({ cart }) => {
         <p className='grey'>Order Value</p>
         <p>${cart.totalPrice}</p>
       </div>
-      <div className='delivery_info'>
+      <div className='delivery_infopage'>
         <p className='grey'>Delivery</p>
         <p>Free</p>
       </div>

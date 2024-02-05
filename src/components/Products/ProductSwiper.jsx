@@ -42,6 +42,7 @@ export default function ProductSwiper() {
           navigation={true}
           modules={[Navigation]}
           className='mySwiper'
+          style={{ height: "400px" }}
         >
           {shuffledProducts.map((item) => (
             <SwiperSlide
@@ -49,22 +50,24 @@ export default function ProductSwiper() {
               onClick={() => navigate(`/details/${item.id}`)}
             >
               <div className='swipe_products'>
-                <div className='productCard_img'>
-                  <img src={item.image} alt='' />
-                </div>
-                <div className='product_text'>
-                  <p className='title'>{item.title}</p>
-
-                  <div className='price'>
-                    <p>
-                      {item.discount > 0
-                        ? item.price -
-                          Math.floor((item.price / 100) * item.discount)
-                        : null}
-                    </p>
-                    -<span>{item.price}</span>
+                <div className='check'>
+                  <div className='swipeProductCard_img'>
+                    <img src={item.image} alt='' />
                   </div>
-                  <p className='rating'>{item.rating}</p>
+                  <div className='swipeProduct_text'>
+                    <p className='title'>{item.title}</p>
+
+                    <div className='price'>
+                      <p>
+                        {item.discount > 0
+                          ? item.price -
+                            Math.floor((item.price / 100) * item.discount)
+                          : null}
+                      </p>
+                      -<span>{item.price}</span>
+                    </div>
+                    <p className='rating'>{item.rating}</p>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>

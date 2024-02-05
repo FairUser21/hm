@@ -37,9 +37,9 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.delivery_info {
+.delivery_infopage {
   display: flex;
-  width: 100%;
+
   align-items: center;
   justify-content: space-between;
 }
