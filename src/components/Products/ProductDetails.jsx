@@ -47,7 +47,7 @@ const ProductDetails = () => {
 
         <div className='productdisplay-right'>
           <div className='productdisplay-right-head'>
-            <h3 className='title'>{oneProduct.title}</h3>
+            <h4 className='producttitle'>{oneProduct.title}</h4>
             <div className='fav-icon'>
               <FavoriteBorderIcon />
             </div>
@@ -124,6 +124,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
+
       <ProductSwiper />
     </div>
   );

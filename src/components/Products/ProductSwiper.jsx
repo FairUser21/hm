@@ -42,7 +42,7 @@ export default function ProductSwiper() {
           navigation={true}
           modules={[Navigation]}
           className='mySwiper'
-          style={{ height: "400px" }}
+          style={{ height: "460px" }}
         >
           {shuffledProducts.map((item) => (
             <SwiperSlide
@@ -57,16 +57,15 @@ export default function ProductSwiper() {
                   <div className='swipeProduct_text'>
                     <p className='title'>{item.title}</p>
 
-                    <div className='price'>
+                    <div className='swipe-price'>
                       <p>
                         {item.discount > 0
                           ? item.price -
                             Math.floor((item.price / 100) * item.discount)
                           : null}
                       </p>
-                      -<span>{item.price}</span>
+                      ${item.price}
                     </div>
-                    <p className='rating'>{item.rating}</p>
                   </div>
                 </div>
               </div>

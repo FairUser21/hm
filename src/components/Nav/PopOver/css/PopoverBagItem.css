@@ -1,9 +1,7 @@
 .shopping_wrapper {
-  width: 300px;
   height: auto;
   display: flex;
-  align-items: center;
-
+  justify-content: flex-start;
   gap: 20px;
   font-size: 13px;
 }
@@ -15,4 +13,9 @@
 .shopping_text {
   line-height: 0.3rem;
   font-weight: 600;
+}
+.shopping_qty {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 10px;
 }

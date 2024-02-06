@@ -4,29 +4,47 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.register_input {
+.register_inputs {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 .registerEmail_input {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 15px;
 }
-.RegisterEmail_input input {
+.registerEmail_input input {
   height: 40px;
   width: 100%;
+  padding-left: 10px;
 }
 
 .registerPassword_input {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 15px;
 }
 .registerPassword_input input {
   height: 40px;
   width: 100%;
+  padding-left: 10px;
+}
+.registerDate_input {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.registerDate_input input {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+
+  max-width: 464px;
 }
 .register_actiontext {
   display: flex;
@@ -38,16 +56,29 @@
   background-color: black;
   color: white;
 }
-.register_remember {
+.register_email-me {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
-.register_button {
+.register_email-me [type] {
+  margin-top: 13px;
+}
+.register_email-me p {
+  line-height: 1.2rem;
+}
+.register_terms p {
+  font-size: 11px;
+  color: rgb(121, 120, 120);
+}
+.register-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
+  margin: 10px, 0;
+  background-color: black;
+  color: white;
 }
 .footer_text {
   display: flex;

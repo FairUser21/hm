@@ -61,7 +61,7 @@ const PopoverBag = () => {
         disableRestoreFocus
       >
         <div>
-          <ul>
+          <ul className='popoverBag_list'>
             {cart.products.map((item) => (
               <PopoverBagItem key={item.item.id} item={item} />
             ))}

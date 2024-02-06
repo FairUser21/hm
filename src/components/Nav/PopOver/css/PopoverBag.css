@@ -1,1 +1,9 @@
-
+.popoverBag_container {
+  display: flex;
+  flex-direction: column;
+}
+.popoverBag_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

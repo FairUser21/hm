@@ -1,6 +1,7 @@
 .popover_container {
   width: 400px;
   height: auto;
+  margin: 30px;
 }
 
 .delivery_info {

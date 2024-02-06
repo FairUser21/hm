@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { register } from "./store/authSlice";
 import ModalTemplate from "../UI/ModalTemplate";
 import { useNavigate } from "react-router-dom";
+import "./Register.css";
 
 const Register = ({ showModal, setShowModal, setOpen }) => {
   const [email, setEmail] = useState("");
@@ -26,25 +27,25 @@ const Register = ({ showModal, setShowModal, setOpen }) => {
             events and contests.
           </p>
         </div>
-        <div className='register_input'>
+        <div className='register_inputs'>
           <div className='registerEmail_input'>
-            <label type='text' name='email'>
+            <label type='email' name='email'>
               Email<span>*</span>
             </label>
             <input
               type='email'
-              placeholder='email'
+              placeholder='Email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div className='registerPassword_input'>
-            <label type='text' name='email'>
+            <label type='password' name='password'>
               Create a password<span>*</span>
             </label>
             <input
               type='text'
-              placeholder='password'
+              placeholder='Password'
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
@@ -64,11 +65,12 @@ const Register = ({ showModal, setShowModal, setOpen }) => {
           </div>
         </div>
 
-        <div className='register_emailme'>
+        <div className='register_email-me'>
           <input type='checkbox' />
           <p>
             Yes, email me offers, style updates, and special invites to sales
-            and events <br />
+            and events. <br />
+            <br />
             H&M will send you information regarding your bonus points and other
             information regarding your membership, unless you opt-out from such
             messages by changing your profile settings,contacting customer
@@ -88,8 +90,15 @@ const Register = ({ showModal, setShowModal, setOpen }) => {
         </div>
       </div>
 
-      <button onClick={() => register(email, password)}>Become a member</button>
-      <button onClick={handleButtonChange}>Sign in</button>
+      <button
+        className='register-btn'
+        onClick={() => register(email, password)}
+      >
+        Become a member
+      </button>
+      <button className='signin-btn' onClick={handleButtonChange}>
+        Sign in
+      </button>
     </ModalTemplate>
   );
 };

@@ -1,5 +1,5 @@
 .products_container {
-  margin-left: 50px;
+  margin-left: 60px;
 
   display: flex;
   flex-direction: column;
@@ -14,4 +14,8 @@
   align-items: center;
   justify-content: center;
   margin-top: 80px;
+}
+.loadmore_button::after {
+  background-color: white;
+  color: black;
 }

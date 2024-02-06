@@ -6,6 +6,13 @@ import { useNavigate } from "react-router-dom";
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
 
+  const discountedPrice =
+    product.discount > 0
+      ? (
+          product.price - Math.floor((product.price / 100) * product.discount)
+        ).toFixed(2)
+      : null;
+
   return (
     <div
       className='product_container'
@@ -15,18 +22,18 @@ const ProductCard = ({ product }) => {
         <img src={product.image} alt='' />
       </div>
       <div className='product_text'>
-        <p className='title'>{product.title}</p>
+        <p className='product_title'>{product.title}</p>
 
         <div className='price'>
-          <p>
-            {product.discount > 0
-              ? product.price -
-                Math.floor((product.price / 100) * product.discount)
-              : null}
-          </p>
-          -<span>{product.price}</span>
+          {discountedPrice !== null ? (
+            <>
+              <p style={{ color: "red" }}>${discountedPrice}</p>-
+              <span>${product.price.toFixed(2)}</span>
+            </>
+          ) : (
+            `$${product.price.toFixed(2)}`
+          )}
         </div>
-        <p className='rating'>{product.rating}</p>
       </div>
     </div>
   );

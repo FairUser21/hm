@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Cart/css/CheckoutPage.css";
+import ModalTemplate from "../UI/ModalTemplate";
+import Login from "../Auth/Login";
+import { useNavigate } from "react-router-dom";
+import Register from "../Auth/Register";
+
 const CheckoutPage = ({ cart }) => {
+  const navigate = useNavigate();
+  const [open, setOpen] = useState(false);
+  const [registerModal, setRegisterModal] = useState(false);
+
   return (
     <div className='checkout_container'>
       <div className='discount_text'>
@@ -10,13 +19,21 @@ const CheckoutPage = ({ cart }) => {
       <div className='checkout_login'>
         <p>Log in to use your personal offers!</p>
         <div className='login_button'>
-          <button> Log in</button>
+          <button onClick={() => setOpen(true)}> Log in</button>
+          <ModalTemplate trigger={open} setTrigger={setOpen}>
+            <Login setShowModal={setRegisterModal} setOpen={setOpen} />
+          </ModalTemplate>
+          <Register
+            showModal={registerModal}
+            setShowModal={setRegisterModal}
+            setOpen={setOpen}
+          />
         </div>
       </div>
       <hr></hr>
       <div className='price_info'>
         <p className='grey'>Order Value</p>
-        <p>${cart.totalPrice}</p>
+        <p>${cart.totalPrice.toFixed(2)}</p>
       </div>
       <div className='delivery_infopage'>
         <p className='grey'>Delivery</p>
@@ -25,7 +42,7 @@ const CheckoutPage = ({ cart }) => {
       <hr className='bolded' />
       <div className='checkout_total'>
         <p>Total</p>
-        <p>${cart.totalPrice}</p>
+        <p>${cart.totalPrice.toFixed(2)}</p>
       </div>
       <div className='checkout_continue'>
         <p>* Item prices exclude tax</p>

@@ -30,13 +30,17 @@
   display: flex;
   margin: 0px 70px;
   flex-direction: column;
-  gap: 10px;
 }
 
 .productdisplay-right-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 30px;
+}
+.fav-icon {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .productdisplay-right h3 {
@@ -57,10 +61,16 @@
 
   gap: 30px;
 }
+.producttitle {
+  margin: 0;
+}
 .productdisplay-right-sizes button:hover {
   background-color: black;
   color: white;
   font-weight: 900;
+}
+.productdisplay-right-price p {
+  font-size: 20px;
 }
 .productdisplay-right-sizes button {
   width: 90px;
@@ -70,9 +80,10 @@
   border-radius: 3px;
   cursor: pointer;
 }
-.productdisplay-right-description {
+.productdisplay-right-description p {
   max-width: 500px;
   line-height: 1.5rem;
+  font-size: 15px;
 }
 
 .product-cta {
@@ -84,6 +95,9 @@
   color: white;
   background-color: black;
   margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .productdisplay-right-store {
@@ -110,7 +124,7 @@
   width: 300px;
 }
 .swiper-slide {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   background: transparent;
 
@@ -128,7 +142,7 @@
 
 .swiper {
   width: 100%;
-  height: 300px;
+  height: 500px;
   margin: 20px auto;
 }
 .swiperText {
@@ -137,7 +151,7 @@
   margin-left: 50px;
 }
 .swipe_products {
-  height: 700px;
+  height: 900px;
   width: 100%;
 
   display: flex;
@@ -146,21 +160,29 @@
   align-items: center;
 }
 .swipeProductCard_img img {
-  width: 230px;
-  height: 90%;
+  width: 250px;
+  height: 100%;
 }
 .check {
   height: 100%;
-  width: 90%;
-  background-color: black;
+  width: 250px;
+  background-color: white;
   display: flex;
-  color: white;
+  color: black;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .swipeProduct_text {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+h4 {
+  font-size: 30px;
+}
+.swipe-price {
+  font-size: 13px;
 }
