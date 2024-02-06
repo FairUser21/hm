@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
+  z-index: 2;
 }
 .popup-inner {
   position: relative;

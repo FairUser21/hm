@@ -3,6 +3,7 @@ import { register } from "./store/authSlice";
 import ModalTemplate from "../UI/ModalTemplate";
 import { useNavigate } from "react-router-dom";
 import "./Register.css";
+import { Widgets } from "@mui/icons-material";
 
 const Register = ({ showModal, setShowModal, setOpen }) => {
   const [email, setEmail] = useState("");
@@ -18,8 +19,12 @@ const Register = ({ showModal, setShowModal, setOpen }) => {
     setShowModal(false);
   };
   return (
-    <ModalTemplate trigger={showModal} setTrigger={setShowModal}>
-      <div className='register_conatiner'>
+    <ModalTemplate
+      sx={{ width: "100%", height: "700px", overflow: "scroll" }}
+      trigger={showModal}
+      setTrigger={setShowModal}
+    >
+      <div className='register_container'>
         <div className='popup_text'>
           <h1>Become a member</h1>
           <p>
@@ -88,17 +93,18 @@ const Register = ({ showModal, setShowModal, setOpen }) => {
             personal data in accordance with the H&M's Privacy Notice.
           </p>
         </div>
+        <div className='register_buttons'>
+          <button
+            className='register-btn'
+            onClick={() => register(email, password)}
+          >
+            Become a member
+          </button>
+          <button className='signin-btn' onClick={handleButtonChange}>
+            Sign in
+          </button>
+        </div>
       </div>
-
-      <button
-        className='register-btn'
-        onClick={() => register(email, password)}
-      >
-        Become a member
-      </button>
-      <button className='signin-btn' onClick={handleButtonChange}>
-        Sign in
-      </button>
     </ModalTemplate>
   );
 };
