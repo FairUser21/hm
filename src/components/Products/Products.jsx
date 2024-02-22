@@ -76,13 +76,7 @@ const Products = () => {
           Load more products
         </Button>
       </div>
-      {/* <ul>
-        {products.map((product) => (
-          <li>
-            <ProductCard product={product} />
-          </li>
-        ))}
-      </ul> */}
+ 
     </div>
   );
 };

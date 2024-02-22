@@ -1,0 +1,22 @@
+.fav-container {
+  margin: 50px;
+}
+.fav-container h2 {
+  margin-bottom: 50px;
+}
+.fav-productCard {
+  display: flex;
+
+}
+.fav-product {
+  margin-right: 30px;
+}
+.fav-button {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}

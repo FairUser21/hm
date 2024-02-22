@@ -8,9 +8,7 @@ const ProductCard = ({ product }) => {
 
   const discountedPrice =
     product.discount > 0
-      ? (
-          product.price - Math.floor((product.price / 100) * product.discount)
-        ).toFixed(2)
+      ? product.price - Math.floor((product.price / 100) * product.discount)
       : null;
 
   return (
@@ -24,14 +22,14 @@ const ProductCard = ({ product }) => {
       <div className='product_text'>
         <p className='product_title'>{product.title}</p>
 
-        <div className='price'>
+        <div className='product-price'>
           {discountedPrice !== null ? (
             <>
               <p style={{ color: "red" }}>${discountedPrice}</p>-
-              <span>${product.price.toFixed(2)}</span>
+              <span>${product.price}</span>
             </>
           ) : (
-            `$${product.price.toFixed(2)}`
+            `$${product.price}`
           )}
         </div>
       </div>

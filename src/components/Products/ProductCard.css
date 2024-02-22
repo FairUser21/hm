@@ -4,30 +4,34 @@
 
 .product_container {
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  max-width: 410px;
 }
 .productCard_img img {
   width: 200px;
   height: 270px;
 }
 .product_text {
-  max-width: 205px;
+  width: 205px;
   line-height: 15px;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: space-between;
 }
 .product_title p {
   font-size: 10px;
+  width: 100%;
 }
-.price {
+.product-price {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-
+  align-items: flex-end;
   font-size: 0.9rem;
+  justify-content: space-between;
 }
 
 .price > p {

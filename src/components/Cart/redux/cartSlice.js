@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { calcSubPrice, calcTotalPrice } from "../../../helpers/func";
-import { act } from "react-dom/test-utils";
+
 
 const initialState = {
   cart: { products: [], totalPrice: 0 },

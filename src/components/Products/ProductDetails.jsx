@@ -11,6 +11,7 @@ import "./ProductDetails.css";
 import { addToCart, getCart } from "../Cart/redux/cartSlice";
 import { Popover, Typography } from "@mui/material";
 import ProductSwiper from "./ProductSwiper";
+import { addToFav } from "../Favorites/favSlice";
 
 const ProductDetails = () => {
   const dispatch = useDispatch();
@@ -48,9 +49,6 @@ const ProductDetails = () => {
         <div className='productdisplay-right'>
           <div className='productdisplay-right-head'>
             <h4 className='producttitle'>{oneProduct.title}</h4>
-            <div className='fav-icon'>
-              <FavoriteBorderIcon />
-            </div>
           </div>
           <div className='productdisplay-right-price'>
             <p>
@@ -93,6 +91,7 @@ const ProductDetails = () => {
           >
             Add To Cart
           </button>
+
           <Popover
             id={idPop}
             open={open}
@@ -122,6 +121,14 @@ const ProductDetails = () => {
               <p>Members get free online returns</p>
             </div>
           </div>
+        </div>
+        <div className='fav-icon'>
+          <FavoriteBorderIcon
+            className='fav-icon'
+            onClick={(e) => {
+              dispatch(addToFav(oneProduct));
+            }}
+          />
         </div>
       </div>
 

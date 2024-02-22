@@ -13,6 +13,7 @@ import Login from "../components/Auth/Login";
 import ProductDetails from "../components/Products/ProductDetails";
 import AllProducts from "../pages/AllProducts";
 import CartPage from "../pages/CartPage";
+import Favorites from "../components/Favorites/Favorites";
 
 const MainRoutes = () => {
   return (
@@ -32,6 +33,7 @@ const MainRoutes = () => {
         <Route path='/details/:id' element={<ProductDetails />}>
           {" "}
         </Route>
+        <Route path='/favorites' element={<Favorites />}></Route>
       </Routes>
     </div>
   );
